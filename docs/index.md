@@ -14,7 +14,7 @@ hero:
       link: /architecture
     - theme: alt
       text: View on GitHub
-      link: https://github.com/kizabgd/memoriJADA
+      link: https://github.com/kizabgd123/gemma_neki
 
 features:
   - icon: ⚖️

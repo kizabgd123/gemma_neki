@@ -41,8 +41,8 @@ Follow these steps to get the system running on your local workstation.
 
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/your-org/ai-workflow-orchestrator.git
-cd ai-workflow-orchestrator
+git clone https://github.com/kizabgd123/gemma_neki.git
+cd gemma_neki
 
 # Step 2: Create virtual environment
 python3 -m venv venv

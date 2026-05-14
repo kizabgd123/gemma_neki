@@ -58,7 +58,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/kizabgd/memoriJADA' },
+      { icon: 'github', link: 'https://github.com/kizabgd123/gemma_neki' },
     ],
 
     search: {
