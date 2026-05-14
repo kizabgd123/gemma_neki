@@ -1,0 +1,74 @@
+/**
+ * Custom High-Tech Cyan Theme
+ * Harvested from kiza-portfolio.pages.dev
+ */
+
+:root {
+  /* Brand colors */
+  --vp-c-brand-1: #22d3ee;
+  --vp-c-brand-2: #0ea5e9;
+  --vp-c-brand-3: #0284c7;
+  --vp-c-brand-soft: rgba(34, 211, 238, 0.1);
+
+  /* Backgrounds */
+  --vp-c-bg: #050505;
+  --vp-c-bg-soft: #09090b;
+  --vp-c-bg-mute: #18181b;
+  
+  /* Text */
+  --vp-c-text-1: #e4e4e7;
+  --vp-c-text-2: #a1a1aa;
+  
+  /* Typography */
+  --vp-font-family-base: 'Inter', sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', monospace;
+}
+
+/* Custom UI Polish */
+
+.VPHero.has-image .container {
+  border-bottom: 1px solid rgba(34, 211, 238, 0.1);
+}
+
+.VPFeature {
+  background-color: #09090b !important;
+  border: 1px solid #18181b !important;
+  transition: all 0.3s ease;
+}
+
+.VPFeature:hover {
+  border-color: #22d3ee !important;
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.1);
+  transform: translateY(-4px);
+}
+
+/* Glowing code blocks */
+.vp-code-group {
+  border: 1px solid #18181b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Sidebar polish */
+.VPSidebar {
+  background-color: #050505 !important;
+  border-right: 1px solid #18181b !important;
+}
+
+.VPLink.active {
+  color: #22d3ee !important;
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
+}
+
+/* Navbar blur */
+.VPNavBar {
+  background-color: rgba(5, 5, 5, 0.8) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #18181b !important;
+}
+
+/* Headlines */
+h1, h2, h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.02em;
+}

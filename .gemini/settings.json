@@ -1,0 +1,22 @@
+{
+  "ui": {
+    "showMemoryUsage": true
+  },
+  "context": {
+    "loadMemoryFromIncludeDirectories": true
+  },
+  "experimental": {
+    "memoryV2": false,
+    "autoMemory": true,
+    "enableAgents": true
+  },
+  "hooksConfig": {
+    "disabled": []
+  },
+  "mcpServers": {
+    "google-developer-knowledge": {
+      "httpUrl": "https://developerknowledge.googleapis.com/mcp",
+      "trust": true
+    }
+  }
+}

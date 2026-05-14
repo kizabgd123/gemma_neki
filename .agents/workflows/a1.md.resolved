@@ -1,0 +1,57 @@
+# Project Instructions
+
+This file contains instructions for AI agents working on this project.
+
+## System Overview
+
+This workspace uses a **Skills-Based Productivity System** to organize work.
+All agents must follow the protocols defined in this repository.
+
+## Key Documents
+
+| Document | Purpose |
+|:---|:---|
+| `🎛️ MASTER ORCHESTRATION PROTOCOL.md` | Execution protocol — the law |
+| `🎯 Skills-Based Productivity System.md` | System overview and quick start |
+| `WORK_LOG.md` | Daily action log |
+
+## Workspace Structure
+
+```
+.agents/
+├── skills/
+│   ├── _inbox/              # Capture new ideas here
+│   ├── _system/             # Meta-skills (templates, index)
+│   │   ├── skill-template.md
+│   │   └── skill-index.md
+│   └── [project-name]/      # Project-specific skills
+│       └── skill.md
+├── workflows/
+│   ├── triage.md            # /triage — morning inbox processing
+│   ├── end-to-end.md        # /end-to-end — focused single-skill work
+│   ├── skill-learning.md    # /skill-learning — evening knowledge capture
+│   └── first.md             # /first — system overview
+└── rules/                   # Project-specific rules
+```
+
+## Agent Rules
+
+1. **One Skill = One Focus** — Never work on 2+ skills simultaneously
+2. **End-to-End Discipline** — START → Steps → FINISH, no interruptions
+3. **Skills Directory is Truth** — All procedural knowledge lives in `.agents/skills/`
+4. **Verify Before Execute** — Check before and after major actions
+5. **Fail Fast** — If unclear, HALT and ask the user
+
+## Available Workflows
+
+| Command | When | Duration |
+|:---|:---|:---|
+| `/triage` | Morning — process inbox | 5 min |
+| `/end-to-end` | Day — focused work on one skill | Focus time |
+| `/skill-learning` | Evening — codify knowledge | 10 min |
+| `/first` | Anytime — system overview | 2 min |
+
+## Skill Lifecycle
+
+```
+Idea → _inbox/ → /triage → skill.md → /end-to-end → completed → /skill-learning

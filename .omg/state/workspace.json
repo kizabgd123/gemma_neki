@@ -1,0 +1,22 @@
+{
+  "primary_root": ".",
+  "lanes": [
+    {
+      "id": "main",
+      "path": ".",
+      "owner": "omg-director",
+      "purpose": "merge-ready baseline",
+      "baseline": {
+        "branch": "main",
+        "commit": "df1005bb"
+      },
+      "health": {
+        "cleanliness": "dirty",
+        "trusted": "trusted",
+        "handoff": "ready"
+      }
+    }
+  ],
+  "cross_lane_policy": "explicit-handoff",
+  "source": "omg:workspace"
+}

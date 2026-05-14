@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# --- Machine Learning & Datasets ---
+# Exclude raw data and heavy processed files
+**/data/*.csv
+**/data/*.parquet
+**/*.csv
+**/*.parquet
+**/*.tfevents
+catboost_info/
+*.model
+*.joblib
+*.pkl
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+.vitepress/dist/
+.vitepress/cache/
+
+# --- Persistence & System ---
+# Exclude session history and heavy state
+.omog/
+.bkit/snapshots/
+storage/test_*.db
+storage/memory.db-journal
+storage/memory.db-shm
+storage/memory.db-wal
+
+# --- Logs ---
+observability/*.log
+logs/
+*.log
+
+# --- IDE & OS ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Embedded Git Repos (Safety) ---
+nemotron_challenge/.git
+orchestrator/tiny-rick/.git

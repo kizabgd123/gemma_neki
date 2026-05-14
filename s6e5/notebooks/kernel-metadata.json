@@ -1,0 +1,15 @@
+{
+  "id": "kiza123123/s6e5-ai-workflow-orchestrator",
+  "title": "S6E5 AI Workflow Orchestrator",
+  "code_file": "submission_notebook.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [
+    "playground-series-s6e5"
+  ],
+  "kernel_sources": []
+}
